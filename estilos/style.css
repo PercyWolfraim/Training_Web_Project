@@ -5,7 +5,7 @@
 
 body{
 	background: #363636 url(../src/lis.png) no-repeat fixed 120%;
-	color: white; 
+	color: white;
 }
 
 header{
@@ -75,7 +75,7 @@ hr{
 }
 
 a:hover{
-	background-color:rgba(93, 87, 88, 0.96); 
+	background-color:rgba(93, 87, 88, 0.96);
 }
 
 .titulo_boton{
@@ -102,11 +102,31 @@ a:hover{
 	padding: 0px;
 }
 
+#G-obra {
+	margin: 10px;
+	display: inline-block;
+	width:325px;
+	position:relative;
+	left:25%;
+	background-color: #5d5d5d;
+	padding: 0px;
+}
+
 .titulo{
 	display: inline-block;
 	background-color: cadetblue;
 	height: 100%;
 	width: 710px;
+	margin: 0px;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.G-titulo{
+	display: inline-block;
+	background-color: cadetblue;
+	height: 100%;
+	width: 285px;
 	margin: 0px;
 	padding: 20px;
 	font-size: 25px;
@@ -119,12 +139,25 @@ a:hover{
 }
 
 .imgs {
-	float:right; 
+	float:right;
   	left: 50%;
 	margin: 10px;
 	box-shadow: 5px 5px 0px rgba(54, 54, 54, 0.52);
 }
+
+.G-imgs {
+	float:right;
+  left: 50%;
+	margin: 10px;
+	box-shadow: 5px 5px 0px rgba(54, 54, 54, 0.52);
+}
+
 .poems{
+	height: 100%;
+	margin: 10px;
+}
+
+.G-poems{
 	height: 100%;
 	margin: 10px;
 }
