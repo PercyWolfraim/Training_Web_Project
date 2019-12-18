@@ -93,6 +93,7 @@ a:hover{
 }
 
 #obra {
+	float:left;
 	margin: 10px;
 	display: inline-block;
 	width:750px;
@@ -217,4 +218,21 @@ a.hover_librerias:hover{
 	top: 145%;
 	background-color: #5d5d5d;
 	padding: 0px;
+}
+
+#FlechaI{
+	float:left;
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#FlechaD{
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
