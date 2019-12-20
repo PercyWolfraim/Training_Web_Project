@@ -14,3 +14,8 @@ $('#FlechaD').click(function(){
     $('#Ejemplo2').fadeIn();
   });
 });
+$('#FlechaI').click(function(){
+  $('#Ejemplo2').fadeOut('fast',function(){
+    $('#Ejemplo1').fadeIn();
+  });
+});
